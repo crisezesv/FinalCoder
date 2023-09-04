@@ -1,0 +1,50 @@
+.contacto {
+    padding: 1rem;
+    text-align: center;
+    background-color: #4A0805;
+    color: #fafafa;}
+
+    .espacio {
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      
+      .bgcontact {
+        background-color: #4A0805;
+        color: #fafafa;
+        font-weight: bolder;
+        border: solid black 2px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      
+      .cajaContacto {
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+      }
+      
+      .contactForm {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .inputForm {
+        padding: 5px;
+        margin: 10px;
+        width: 98%;
+      }
+      
+      .textArea {
+        padding: 40px;
+        margin: 10px;
+        width: 98%;
+      }
+      
+      .submit {
+        display: flex;
+        justify-content: space-around;
+        padding: 1px;
+        margin: 10px;
+        width: 150px;
+      }

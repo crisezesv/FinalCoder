@@ -1,0 +1,33 @@
+footer {
+    background-color: #4A0805;
+    color: #fafafa;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border-top: #fafafa solid 5px;
+
+    .linksFooter, li {
+        display: inline-block;
+        padding: 0 25px;
+      }
+
+      .textFooter {
+        font-size: 0.7rem;
+      }
+      .colorFooter {
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #4A0805;
+      }
+      
+      .footer {
+        cursor: pointer;
+        color: #fafafa;
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+
+  }

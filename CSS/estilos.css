@@ -1,0 +1,233 @@
+header {
+  background-color: #4A0805;
+  border-bottom: #fafafa solid 5px;
+}
+
+header .logo {
+  width: 10rem;
+}
+
+header .colorFont {
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header .colorFont2 {
+  font-size: 40px;
+  color: #fafafa;
+}
+
+header h1 {
+  color: #fafafa;
+  font-weight: bolder;
+  animation-name: texto;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+header .bgMenu {
+  background-color: #fafafa;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: bisque;
+}
+
+.textP {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #212529;
+  text-align: center;
+  padding-top: 10px;
+}
+
+li, a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #fafafa;
+}
+
+.tituloAutos {
+  background-color: #4A0805;
+  color: #fafafa;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.tituloCamionetas {
+  background-color: #4A0805;
+  color: #fafafa;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.bgci {
+  background-color: #E5E8E8;
+  margin-top: 70px;
+  padding-top: 200px;
+}
+
+.autos {
+  margin-bottom: 50px;
+}
+
+.bgbtn {
+  background-color: #931711;
+  color: #fafafa;
+}
+
+.bgbtn:hover {
+  background-color: #4A0805;
+  color: bisque;
+}
+
+.bgPlan {
+  background-color: #4A0805;
+  text-align: center;
+  margin: 25px 8px;
+}
+
+.border-bottom {
+  border: #4A0805;
+  color: #4A0805;
+}
+
+.tituloPlan {
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.colorBox {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contacto {
+  padding: 1rem;
+  text-align: center;
+  background-color: #4A0805;
+  color: #fafafa;
+}
+
+.espacio {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.bgcontact {
+  background-color: #4A0805;
+  color: #fafafa;
+  font-weight: bolder;
+  border: solid black 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cajaContacto {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputForm {
+  padding: 5px;
+  margin: 10px;
+  width: 98%;
+}
+
+.textArea {
+  padding: 40px;
+  margin: 10px;
+  width: 98%;
+}
+
+.submit {
+  display: flex;
+  justify-content: space-around;
+  padding: 1px;
+  margin: 10px;
+  width: 150px;
+}
+
+footer {
+  background-color: #4A0805;
+  color: #fafafa;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  border-top: #fafafa solid 5px;
+}
+footer .linksFooter, footer li {
+  display: inline-block;
+  padding: 0 25px;
+}
+footer .textFooter {
+  font-size: 0.7rem;
+}
+footer .colorFooter {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #4A0805;
+}
+footer .footer {
+  cursor: pointer;
+  color: #fafafa;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 400px) {
+  footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (min-width: 300px) and (max-width: 450px) {
+  .cardPlan {
+    background-color: #4A0805;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .imgCard {
+    display: none;
+  }
+}
+@media (min-width: 550px) and (max-width: 1080px) {
+  .imgCard {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.textCars {
+  font-size: 0.7rem;
+  text-decoration: underline;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=estilos.css.map */

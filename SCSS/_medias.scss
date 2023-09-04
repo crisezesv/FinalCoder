@@ -1,0 +1,25 @@
+
+@media (max-width: 400px) {
+    footer {
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  @media (min-width: 300px) and (max-width: 450px) {
+    .cardPlan {
+      background-color: #4A0805;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .imgCard {
+      display: none;
+    }
+  }
+  @media (min-width: 550px) and (max-width: 1080px) {
+    .imgCard {
+      justify-content: center;
+      align-items: center;
+    }
+  }

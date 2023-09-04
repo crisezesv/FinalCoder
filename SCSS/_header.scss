@@ -1,0 +1,26 @@
+header {
+    background-color: #4A0805;
+    border-bottom: #fafafa solid 5px;
+  }
+  header .logo {
+    width: 10rem;
+  }
+  header .colorFont {
+    color: #fafafa;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  header .colorFont2 {
+    font-size: 40px;
+    color: #fafafa;
+  }
+  header h1 {
+    color: #fafafa;
+    font-weight: bolder;
+    animation-name: texto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  header .bgMenu {
+    background-color: #fafafa;
+  }
